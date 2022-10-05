@@ -14,9 +14,9 @@
             Enter the bill amount and cash given by the customer and know minimum number of notes to return 
         </p>
         <label for="bill-amount"> Bill Amount:</label>
-       <input id="bill-amount" type="text" placeholder="Enter Amount" />
+       <input id="bill-amount" type="number" placeholder="Enter Amount" />
         <label for="cash-given"> Cash given by customer:</label>
-        <input id="cash-given" type="text" placeholder="Enter Amount" />
+        <input id="cash-given" type="number" placeholder="Enter Amount" />
         <button id="check-button"> check</button>
         <p id="error-message"> </p>
         <table class="change-table">
@@ -30,6 +30,7 @@
                 <td class="no-of-notes"> </td>
                 <td class="no-of-notes"> </td>
             </tr>
+     
             <tr> 
                 <th> Availables Notes</th>
                 <td> 2000</td>
@@ -41,8 +42,8 @@
                 <td> 1</td>
             </tr>
 
-    
         </table>
+       
 
         </div>
         <script src="app.js"></script>
